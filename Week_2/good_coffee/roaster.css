@@ -1,0 +1,49 @@
+body {
+	background-color: #A2DED0;
+}
+
+h1 {
+    text-align:center;
+    text: bold;
+}
+
+.roaster {
+	font-family: 'Muli' 'sans-serif';
+	text-align: center;
+	color: red;
+	font-size: 1.2em;
+	padding-top: 10px;
+}
+
+.features p {
+	font-family: 'Muli' 'sans-serif';
+	text-align: center;
+	color:#323232;
+	font-size: 1.2em;
+	padding-top: 10px;
+}
+
+footer {
+	background-color: #D64541;
+	position: absolute;
+	width: 100%;
+	height: auto;
+}
+
+footer ul li {
+	display: inline-block;
+	list-style: none;
+	float: right;
+	
+}
+
+footer p {
+	float: left;
+}
+
+footer a,
+footer p {
+
+	color:#fff;
+	vertical-align: middle;
+}
