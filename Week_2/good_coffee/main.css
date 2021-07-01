@@ -22,6 +22,10 @@ body {
 	color: #F7FAFE;
 }
 
+.jumbotron h1 {
+    color: orange;
+} 
+
 .mission {
 	background-color: #323232;
 	color: #F7FAFE;
@@ -87,7 +91,3 @@ MEDIA QUERIES
 		max-width: 90%;
 		margin: auto;
 	}
-
-.jumbotron h1 {
-    color: orange;
-} 
