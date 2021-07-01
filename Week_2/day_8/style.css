@@ -1,0 +1,12 @@
+#content {
+    width:600px;
+    background: red;
+}
+
+span {
+    background: blue;
+}
+
+.btn-primary {
+    color:red;
+}
