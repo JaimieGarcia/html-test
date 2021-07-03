@@ -56,7 +56,7 @@ let myNumber = 100;
 let myDecimalValue = 0.45; 
 
 // below are boolean values
-// they can be either gtrue or false and nothing else
+// they can be either true or false and nothing else
 // they aign neatly with the state of a bit 
 // which is either 0 or 1
 let myBoolean = true;
