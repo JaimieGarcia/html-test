@@ -1,0 +1,182 @@
+/* MASTHEAD WITH NAVIGATION */
+.header {
+    overflow: hidden;
+    background-color: black;
+    padding: 10px 10px;
+  }
+  
+  .header a {
+    float: left;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 40px;
+    border-radius: 4px;
+    padding: 12px;
+  }
+  
+  .header a.logo {
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+  .header a:hover {
+    background-color: pink;
+    color: black;
+  }
+  
+  .header a.active {
+    background-color: pink;
+    color: white;
+  }
+  
+  .header-logo {
+      position:static;
+      display: inline-block;
+      max-height: 25%;
+      max-width: 25%;
+      float: left;
+  }
+
+  .header-right {
+    float:inline-start;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .header .search-container {
+    float: right;
+  }
+  
+  .header input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+  }
+  
+  .header .search-container button {
+    float: right;
+    display: block;
+    background: pink;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    height: 15px;
+    width: 15px;
+    padding: 16px;
+    margin-top: 8px;
+    font-size: 17px;
+  }
+
+  .header .search-container button:hover {
+    background: white;
+  }
+  
+
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
+    }
+    .header .search-container {
+        float: none;
+      }
+      .header a, .header input[type=text], .header .search-container button {
+        float: none;
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+      }
+      .header input[type=text] {
+        border: 1px solid #ccc;  
+      }
+  }
+
+
+body {
+	background-color: #b8b8b8;
+}
+
+h1 {
+    color: pink;
+    font-style: bold;
+    font-family: 'Roboto Slab', sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px black;
+}
+
+p {
+    color: cadetblue; 
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h3 {
+    color: pink;
+    font-style: none;
+    font-family: 'Roboto Slab', serif;
+    text-shadow: 1px 1px black;
+}
+
+a:hover {
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/squiggle.svg");
+    background-position: bottom;
+    background-repeat: repeat-x;
+    background-size: 20%;
+    border-bottom: 0;
+    padding-bottom: .3em;
+    text-decoration: none;
+  }
+
+div.pizza {
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    }
+
+div.container {
+    padding: 10px;
+}
+
+img {
+    position: relative;
+    z-index: 1;
+  }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+div.box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation: myfirst 5s linear 2s infinite alternate;
+}
+
+@keyframes myfirst {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: black;
+    color: white;
+    display: block;
+}
