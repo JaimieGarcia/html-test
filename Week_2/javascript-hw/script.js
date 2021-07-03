@@ -12,3 +12,9 @@ if (y < 3) {
 }
 
 // Challenge 2: Does your car need an oil change?
+let x = 360
+if (x > 500) {
+    console.log ("Yes, I think I need an oil change.");
+} else if (x < 501) {
+    console.log ("My car doesn't need an oil change yet.")
+}
