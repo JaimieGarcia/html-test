@@ -1,0 +1,143 @@
+/* NEW NAVBAR */
+.navbar {
+  columns: 12;
+}
+
+/* Hiding for now
+.form-inline {
+    display: inline-block;
+    float: right;
+}
+
+.btn {
+    display: inline-block;
+    float: right;
+}
+*/
+
+.input-group-btn {
+    display: inline-block;
+    float: right;
+    columns: 2;
+}
+
+  
+
+/* BODY */ 
+.body {
+	background-color:grey; 
+}
+
+.grid { 
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+}
+
+h1 {
+    color: pink;
+    font-style: bold;
+    font-family: 'Roboto Slab', sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px black;
+}
+
+p {
+    color: cadetblue; 
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: left;
+}
+
+h3 {
+    color: pink;
+    font-style: none;
+    font-family: 'Roboto Slab', serif;
+    text-shadow: 1px 1px black;
+}
+
+a:hover {
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/squiggle.svg");
+    background-position: bottom;
+    background-repeat: repeat-x;
+    background-size: 20%;
+    border-bottom: 0;
+    padding-bottom: .3em;
+    text-decoration: none;
+  }
+
+div.pizza {
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    }
+
+div.container {
+    padding: 10px;
+}
+
+img {
+    position: relative;
+    z-index: 1;
+  }
+
+div.pasta {
+    grid-column: 7 / span 6;
+    width: 250px;
+    border: dotted;
+    border-color: teal;
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+div.box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation: myfirst 5s linear 2s infinite alternate;
+}
+
+.card {
+    border: dashed;
+}
+
+/*
+@keyframes myfirst {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+*/
+
+footer {
+	background-color: black;
+	position: absolute;
+	width: 100%;
+	height: auto;
+}
+
+footer ul li {
+	display: inline-block;
+	list-style: none;
+	float: right;
+	
+}
+
+footer p {
+	float: left;
+}
+
+footer a,
+footer p {
+
+	color:#fff;
+	vertical-align: middle;
+}
