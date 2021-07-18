@@ -8,16 +8,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learning JavaScript</title>
     <link rel="stylesheet" href="style.css"/>
-    <!-- <script src="main.js"></script> -->
+    <script src="main.js"></script>
 </head>
 
-<body>
+<!-- If you have an element you'd like to load on the page, include it in the body. Example of date below -->
+<body onload="showDate()">
     <div class="header">
-        <h1>Learning JavaScript</h1>
-        <p>With Jaimie Garcia</p>
+        <h1 id="heading">Learning JavaScript</h1>
+        <p>with Jaimie Garcia</p>
     </div>
 
     <div class="container">
+        <!-- EVENTS: Custom Button. Uses JS file --> 
+        <!-- <button onclick="doClick()">Click Me</button> -->
+
+        <!-- EVENTS: Button is not custom and doesn't need js file. Likely not to do this. --> 
+        <!-- <button onclick = "this.innerHTML = 'You Clicked!'">Click Me!</button> -->
+
+        <!-- EVENTS: A better way to do the above: --> 
+        <!-- <button onclick = "changeText(this)">Click Me!</button> -->
+
+        <!-- EVENTS: Show the date when you click or mouse over the button -->
+            <!-- <h1 id="time"></h1>
+            <button onclick = "showDate()">Show Date</button> -->
+            <!-- <button onmouseover = "showDate()">Show Date</button> -->
+    
+        <!-- EVENT: On Mouse Out -->
+        <button onmouseout = "clearDate()" onmouseover = 
+            "showDate()">Show Date</button>
 
     </div>
     
@@ -260,7 +278,7 @@
         //     },
         // ];
         // console.log(users[0].name);
-
+        
     </script>
 </body>
 
