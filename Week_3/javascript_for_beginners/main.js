@@ -17,13 +17,15 @@
 // }
 
 // EVENTS: Show the date when you click or mouse over the button
-function showDate() {
-    let time = document.getElementById('time');
-    time.innerHTML = Date();
-}
+// function showDate() {
+//     let time = document.getElementById('time');
+//     time.innerHTML = Date();
+// }
 
 // EVENT: onMouseOut
-function clearDate() {
-    let time = document.getElementById('time');
-    time.innerHTML = '';
-}
+// function clearDate() {
+//     let time = document.getElementById('time');
+//     time.innerHTML = '';
+// }
+
+// FORMS: 
