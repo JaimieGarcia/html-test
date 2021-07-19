@@ -36,4 +36,16 @@
 //  }
 
  // FORM Validation
- 
+ function validateForm() {
+     let firstName = document.forms["myForm"]["firstName"].value;
+
+     if(firstName == null || firstName == "") {
+         alert("First name is required");
+         return false;
+     }
+
+     if(firstName.length < 3) {
+        alert("First name must be at least 3 characters");
+        return false;
+    }
+ }
