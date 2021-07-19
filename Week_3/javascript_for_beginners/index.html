@@ -12,7 +12,12 @@
 </head>
 
 <!-- If you have an element you'd like to load on the page, include it in the body. Example of date below -->
-<body onload="showDate()">
+<!-- <body onload="showDate()"> -->
+
+<!-- Forms: Changing the background -->
+<!-- <body id="body"> -->
+
+<body>
     <div class="header">
         <h1 id="heading">Learning JavaScript</h1>
         <p>with Jaimie Garcia</p>
@@ -37,8 +42,8 @@
         <!-- <button onmouseout = "clearDate()" onmouseover = 
             "showDate()">Show Date</button> -->
 
-        <!-- FORM -->
-        <form method="post" action="something.php" name="myForm">
+        <!-- FORM Template -->
+        <!-- <form method="post" action="something.php" name="myForm">
         <div>
             <label>First Name</label>
             <input type="text" name=firstName" id="firstName" />
@@ -59,8 +64,55 @@
         </div>
         <br />
         <input type="submit" value="Submit" />
-        </form>
+        </form> -->
 
+        <!-- FORM: Changing the Background Color  -->
+        <!-- <form method="post" action="something.php" name="myForm">
+            <div>
+                <label>First Name</label>
+                <input type="text" name=firstName" id="firstName" />
+            </div> 
+            <br />
+            <div>
+                <label>Last Name</label>
+                <input type="text" name="lastName" id="lastName" />
+            </div>
+            <br />
+            <div>
+                <label>Background</label>
+                <select name="background" id="background" onchange ="changeBackground(this)">
+                    <option value="red">Red</option>
+                    <option value="blue">Blue</option>
+                    <option value="green">Green</option>
+                </select>
+            </div>
+            <br />
+            <input type="submit" value="Submit" />
+        </form> -->
+
+        <!-- FORM Validation -->
+        <form method="post" action="something.php" name="myForm">
+            <div>
+                <label>First Name</label>
+                <input type="text" name=firstName" id="firstName" />
+            </div> 
+            <br />
+            <div>
+                <label>Last Name</label>
+                <input type="text" name="lastName" id="lastName" />
+            </div>
+            <br />
+            <div>
+                <label>Background</label>
+                <select name="background" id="background">
+                    <option value="red">Red</option>
+                    <option value="blue">Blue</option>
+                    <option value="green">Green</option>
+                </select>
+            </div>
+            <br />
+            <input type="submit" value="Submit" />
+            </form>
     </div>
     
 
@@ -302,7 +354,6 @@
         //     },
         // ];
         // console.log(users[0].name);
-        
     </script>
 </body>
 

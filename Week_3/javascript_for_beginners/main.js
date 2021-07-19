@@ -28,4 +28,12 @@
 //     time.innerHTML = '';
 // }
 
-// FORMS: 
+// FORM: Changing the background color 
+//  function changeBackground(x){
+//     console.log(x.value);
+//     let body = document.getElementById('body');
+//     body.style.backgroundColor = x.value;
+//  }
+
+ // FORM Validation
+ 
