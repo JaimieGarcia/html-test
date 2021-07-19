@@ -6,20 +6,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To Do List</title>
     <link rel="stylesheet" type="text/css" href="style.css"/>
+    <title>To Do List</title>
 </head>
 
 <body>
-    <script src="dom.js" async defer></script>
 
-    <div id = "myDIV" class = "header">
+    <script type="text/javascript" src="scripts.js"></script>
+    
+    <div id="myDIV" class="header">
         <h2>My To Do List</h2>
-        <input type = "text" id = "myInput" placeholder = "Add another item to list">
-        <span one-Click = "newElement()" class = "addBtn">Add</span>
+        <input type="text" id="myInput" placeholder="Add another item to list">
+        <span onclick="newElement()" class="addBtn">Add</span>
     </div>
 
-    <ul id = "myUL">
+    <ul id="myUL">
         <li>Grocery shopping</li>
         <li>Take Maple to the dog park</li>
         <li>Submit homework</li>
