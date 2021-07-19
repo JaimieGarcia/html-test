@@ -24,4 +24,13 @@
 // console.log(document.images);
 
 // SELECTORS: GET ELEMENT BY ID 
-console.log(document.getElementByID('header-title'));
+// console.log(document.getElementByID('header-title'));
+// let headerTitle = document.getElementById('header-title');
+// console.log(headerTitle);
+// headerTitle.textContent = 'Hello';
+// headerTitle.innerText = 'Goodbye';
+// console.log(headerTitle.innerText);
+// headerTitle.innerHTML = '<h3>Hello</h3>';
+
+
+let headerTitle = document.getElementById('header-title');
