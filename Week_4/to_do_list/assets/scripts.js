@@ -1,8 +1,6 @@
-
-
 // Creating a 'close' button and append it to each list item
 let myNodelist = document.getElementsByTagName("LI");
-let i;
+var i;
 for (i = 0; i < myNodelist.length; i++) {
   let span = document.createElement("SPAN");
   let txt = document.createTextNode("\u00D7");
@@ -13,7 +11,7 @@ for (i = 0; i < myNodelist.length; i++) {
 
 // Click on a close button to hide the current list item
 let close = document.getElementsByClassName("close");
-let i;
+var i;
 for (i = 0; i < close.length; i++) {
   close[i].onclick = function() {
     let div = this.parentElement;
