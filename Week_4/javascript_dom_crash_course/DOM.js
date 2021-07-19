@@ -65,20 +65,32 @@
 // }
 
 // QUERY SELECTOR works like jquary, but for one item... the first one
-let header = document.querySelector('#main-header');
-header.style.borderBottom = 'solid 4px #f4f4f4';
+// let header = document.querySelector('#main-header');
+// header.style.borderBottom = 'solid 4px #f4f4f4';
 
-let input = document.querySelector('input');
-input.value = 'Hello World';
+// let input = document.querySelector('input');
+// input.value = 'Hello World';
 
-let submit = document.querySelector(input[type = "submit"]);
-submit.value = "SEND";
+// let submit = document.querySelector(input[type = "submit"]);
+// submit.value = "SEND";
 
-let item = document.querySelector('.list-group-item');
-item.style.color = 'red';
+// let item = document.querySelector('.list-group-item');
+// item.style.color = 'red';
 
-let lastItem = document.querySelector('.list-group-item:last-child');
-lastItem.style.color = 'blue';
+// let lastItem = document.querySelector('.list-group-item:last-child');
+// lastItem.style.color = 'blue';
 
-let secondItem = document.querySelector('.list-group-item:nth-child(2)');
-secondItem.style.color = 'coral';
+// let secondItem = document.querySelector('.list-group-item:nth-child(2)');
+// secondItem.style.color = 'coral';
+
+// QUERY SELECTOR ALL works similar to getelementsbytagname by grabbing multiple things
+let titles = document.querySelectorAll('.title');
+console.log(titles);
+
+titles[0].textContent = 'Hello';
+
+let odd = document.querySelectorAll('li:nth-child(odd)');
+for (var i = 0; i < odd.length; i++) {
+    odd[i].style.backgroundColor = '#f4f4f4';
+    even[i].style.backgroundColor = '#ccc';
+}
