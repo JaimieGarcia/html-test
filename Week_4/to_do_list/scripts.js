@@ -1,3 +1,5 @@
+
+
 // Creating a 'close' button and append it to each list item
 let myNodelist = document.getElementsByTagName("LI");
 let i;
