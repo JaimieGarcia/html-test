@@ -33,4 +33,33 @@
 // headerTitle.innerHTML = '<h3>Hello</h3>';
 
 
-let headerTitle = document.getElementById('header-title');
+// let headerTitle = document.getElementById('header-title');
+// let header = document.getElementById('main-header');
+// header.style.borderBottom = 'solid 3x #000';
+
+// GET ELEMENTS BY CLASS NAME - intentionally plural 
+// let items = document.getElementsByClassName('list-group-item');
+// console.log(items);
+// console.log(items[1]);
+// items[1].textContent = 'Hello 2';
+// items[1].style.fontWeight = 'bold';
+// items[1].style.backgroundColor = 'yellow';
+
+// Gives error
+// items.style.backgroundColor = '#f4f4f4';
+
+// for(let i = 0; i < items.length; i++) {
+//     items[i].style.backgroundColor = '#f4f4f4';
+// }
+
+// GET ELEMENTS BY TAG NAME 
+// let li = document.getElementsByTagName('li');
+// console.log(li);
+// console.log(li[1]);
+// li[1].textContent = 'Hello 2';
+// li[1].style.fontWeight = 'bold';
+// li[1].style.backgroundColor = 'yellow';
+
+// for(let i = 0; i < li.length; i++) {
+//     li[i].style.backgroundColor = '#f4f4f4';
+// }
