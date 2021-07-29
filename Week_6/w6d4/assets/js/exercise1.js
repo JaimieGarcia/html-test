@@ -13,7 +13,8 @@
 
 // console.log(loadJson('http://httpstat.us/500').catch(alert)); // Error: 500
 
-let url ="https://javascript.info/article/promise-chaining/user.json";
+let url = "http://httpstat.us/500";
+// let url ="https://javascript.info/article/promise-chaining/user.json";
 
 async function loadJson(url) {
     let response = await fetch(url);
