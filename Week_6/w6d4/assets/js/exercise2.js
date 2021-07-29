@@ -11,5 +11,9 @@ async function wait() {
     // ...what should you write here?
     // we need to call async wait() and wait to get 10
     // remember, we can't use "await"
+
+    wait().then((result) => console.log(result));
   }
+  
+  f(); 
 
