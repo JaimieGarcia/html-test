@@ -12,46 +12,14 @@
 // try calling fetching only ONCE per execution.)
 
 
-// Getting city
 fetch('https://extreme-ip-lookup.com/json/')
 .then(res => res.json())
 .then(response => {
     console.log("You are currently in the city of", response.city);
- })
+    console.log("Your coordinates are: " + response.lat + " and " + response.lon);
+})
+ .then()
 
  .catch((data, status) => {
     console.log('Request failed');
  })
-
-
-
-
-// async function cityName(fnParam) {
-//     return fnParam('input value');
-// }
-// console.log("You are currently in " + cityName);
-
-// const API_KEY = 'YOUR_API_KEY_HERE';
-// const API_URL = `https://geocode.xyz/seattle?json=1${API_KEY}&units=metric`;
-
-// (function() {
-//     'use strict';
-    
-//     window.DI = window.DI || {};
-
-//     let injectCoordinates = function injectCoordinates(coordinates) {
-//         document.getElementById('latitude').innerHTML = coordinates.latitude;
-//         document.getElementById('longitude').innerHTML = coordinates.longitude;
-//     };
-
-//     let getLocation = function getLocation(successCallback, failureCallback) {
-//         navigator.geolocation.getCurrentPosition(
-//             function resolveLocation(position) {
-//                 var coordinates = {
-//                     latitude: position.coords.latitude,
-//                     longitude: position.coords.longitude
-//                 }
-//     })
-
-//     console.log("Your coordinates are: " + injectCoordinates);
-// }});
