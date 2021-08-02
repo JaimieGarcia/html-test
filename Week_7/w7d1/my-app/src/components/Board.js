@@ -13,6 +13,18 @@ class Board extends Component {
             <div>
                 <div className="div-board">
                     <div className="row">
+                        <Note 
+                            title="note 1"
+                            body="do a thing"
+                        />
+                        <Note 
+                            title="note 2"
+                            body="do a thing"
+                        />
+                        <Note 
+                            title="note 3"
+                            body="do a thing"
+                        />
                         <Note />
                     </div>
                 </div>
