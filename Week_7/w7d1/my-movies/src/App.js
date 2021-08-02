@@ -1,9 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import Collection from './components/Collection'
+import Movie from './components/Movie'
 
 function App() {
   return (
-    <div className="App">
+    <div className="Movie">
+    {/* <div className="App"></div>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -17,7 +20,36 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
+      <Collection
+        title="Movies about Stuff">
+
+        <Movie 
+          title="No Country for Old Men"
+          description="A movie about stuff"
+          year="2007"
+          genre="thriller"
+        />
+        <Movie 
+          title="Fargo"
+          description="A movie about stuff"
+          year="1994"
+          genre="thriller"
+        />
+        <Movie 
+          title="The Big Lebowski"
+          description="A movie about stuff"
+          year="1994"
+          genre="film noir"
+        />
+        <Movie 
+          title="23"
+          description="A movie about stuff"
+          year="1994"
+          genre="film noir"
+        />
+
+      </Collection>
     </div>
   );
 }
