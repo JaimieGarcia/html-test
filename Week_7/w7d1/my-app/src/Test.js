@@ -1,6 +1,8 @@
 import React from 'react'
 
 function Test() {
+
+    
     const name = "Garfield"
     const element = <h2>This is JSX, here's a variable value {name}</h2>
 
